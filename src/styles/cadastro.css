@@ -10,11 +10,11 @@
 
 .main-cadastro {
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     background-color: #201b2c;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .rigth-cadastro {
@@ -27,8 +27,10 @@
 }
 
 .titulo-cadastro {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-bottom: 50px;
+    padding: 1.5em;
     color: #00ff88;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -66,14 +68,13 @@
     cursor: pointer;
 }
 
-
 .textfield {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 .textfield>input {
